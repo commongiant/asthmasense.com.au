@@ -1,0 +1,97 @@
+!!!
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="assets/css/app.css")
+    script(src="assets/js/modernizr.custom.js")
+
+  body.cbp-spmenu-push
+    #main-navbar.navbar.navbar-fixed-top.clearHeader
+      .container
+        a.navbar-brand.hidden-xs(href="http://asthmasense.com")
+          img(src="assets/img/asthmasenselogo.png", alt="asthmasense")
+        a.navbar-brand.visible-xs(href="http://asthmasense.com")
+          img(src="assets/img/AsthmaSenseLogoround.png", alt="asthmasense")
+        button#showLeftPush.pull-right.menu-trigger
+          span.glyphicon.glyphicon-align-justify
+        ul.nav.navbar-nav.pull-right.hidden-xs
+          li
+            a(href="http://airsonea.com") AirSonea
+          li
+            a(href="http://asthmasense.com/cloud") AsthmaSense Cloud
+          li
+            a(href="http://blog.asthmasense.com") Blog
+    != yield
+    
+    footer.asthmasense-footer
+      .container
+        .row
+          .col-sm-12
+            h2.center Kick Asthma in the Chest
+            p.center Sign up to receive information about asthma management and monitoring.
+            form#mc-embedded-subscribe-form.form-inline.validate.center(role="form", action="http://soundasthma.us7.list-manage.com/subscribe/post?u=214cede23e4a2c905e457618c&amp;id=cd2cb0fc26", method="post", name="mc-embedded-subscribe-form", target="_blank", novalidate)
+              .form-group
+                input#mce-EMAIL.form-control(type="email", value="", name="EMAIL", class="required email", placeholder="Email")
+              input#mc-embedded-subscribe.btn.btn-primary(type="submit", value="Submit", name="subscribe") Submit
+        hr
+        .row
+          .col-sm-4.footer-menu.hidden-xs
+            nav
+              ul
+                li
+                  a(href="http://asthmasense.com/about") About Us
+                li
+                  a(href="http://asthmasense.com/faq") FAQ
+                li
+                  a(href="http://asthmasense.com/contact") Contact
+          .col-sm-4.footer-menu
+            ul
+              li
+          .col-sm-4.social-icons
+            h1 Connect
+            .links
+              a(href="http://facebook.com/SoundAsthma", target="_blank")
+                img(alt="facebook", src="assets/img/fb.png")
+              a(href="http://twitter.com/SoundAsthma", target="_blank")
+                img(alt="twitter", src="assets/img/tt.png")
+              a(href="http://pinterest.com/SoundAsthma", target="_blank")
+                img(alt="pinterest", src="assets/img/pt.png")
+              a(href="http://instagram.com/SoundAsthma", target="_blank")
+                img(alt="instagram", src="assets/img/ig.png")
+              a(href="http://youtube.com/SoundAsthma", target="_blank")
+                img(alt="youtube", src="assets/img/yt.png")
+        .row.copyright
+          .col-sm-12
+            p.center &copy; 2013 iSonea Ltd. All Rights Reserved.
+    #emailModal.modal.fade(tabindex="-1", role="dialog", aria-labelledby="myModalLabel", aria-hidden="true")
+      .modal-dialog
+        .modal-content
+          .modal-header
+            button.close(type="button", data-dismiss="modal", aria-hidden="true") &times;
+            h4.modal-title Modal Title
+            form#mc-embedded-subscribe-form.validate(action="http://soundasthma.us7.list-manage.com/subscribe/post?u=214cede23e4a2c905e457618c&amp;id=20f02701c4", method="post", name="mc-embedded-subscribe-form", target="_blank", novalidate)
+              .modal-body
+                .form-group
+                  input#mce_Email.required.email(type="email", value="", name="EMAIL", placehoder="Email")
+                .form-group
+                  input#mce-FNAME(type="text", value="", name="FNAME", placeholder="First Name")
+                .form-group
+                  input#mce-LNAME(type="text", value="", name="LNAME", placeholder="Last Name")
+              .modal-footer
+                button.btn.btn-default(type="button", data-dismiss="modal") Close
+                input.mc-embedded-subscripe.btn.btn-primary(type="submit", value="Submit", data-dismiss="modal")
+    
+    nav#cbp-spmenu.cbp-spmenu.cbp-spmenu-vertical.cbp-spmenu-left
+      a.visible-xs(href="http://airsonea.com") AirSonea
+      a.visible-xs(href="http://asthmasense.com/cloud") AsthmaSense Cloud
+      a.visible-xs(href="http://blog.asthmasense.com") Blog
+      a(href="http://asthmasense.com/about") About
+      a(href="http://asthmasense.com/new") News & Videos
+      a(href="http://asthmasense.com/technology") Technology
+      a(href="http://asthmasense.com/faq") FAQ
+
+
+    script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js")
+    script(src="assets/js/bootstrap.min.js")
+    script(src="assets/js/app.js")
