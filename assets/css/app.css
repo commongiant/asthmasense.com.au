@@ -744,6 +744,7 @@ body.modal-open,.modal-open .navbar-fixed-top,.modal-open .navbar-fixed-bottom{m
 .more-yt{margin-top:20px;}
 .cloudhead{margin-top:40px;padding:40px 0;}.cloudhead .copy{margin-top:0;}.cloudhead .copy h1{text-align:center;font-size:26px;}
 .main-content{margin:100px 0 50px 0;padding:20px 0;}.main-content .page-title{margin-bottom:30px;}
+.main-content .news-item-title{padding-top:20px;font-size:22px;margin-top:20px;border-top:1px solid #006626;}
 .accordion-toggle{text-decoration:none;}.accordion-toggle:hover{text-decoration:none;}
 .pickone{background:url(../img/woodbg-sml.jpg) no-repeat;background-size:cover;width:100%;padding-top:50px;height:600px;color:#ffffff;}
 .phone-hover{padding-top:104px;width:270px;height:auto;}.phone-hover:hover{width:300px;height:auto;padding-top:62px;}
