@@ -256,6 +256,20 @@ var menuLeft = document.getElementById( 'cbp-spmenu' ),
 
 }(jQuery));
 
+$(".form-foot").on('submit', function(e) {
+  var form = this;
+ 
+  if (_gaq) {
+    e.preventDefault();
+    _gaq.push(['_trackEvent']);
+    setTimeout(function() { form.submit(); }, 100);
+ 
+    return false;
+  }
+ 
+  return true;
+});
+
 jQuery(function() {
    jQuery.support.placeholder = false;
    test = document.createElement('input');
