@@ -141,6 +141,7 @@ var menuLeft = document.getElementById( 'cbp-spmenu' ),
           autoplay: 0,
           egm: 1,
           fs: 1,
+          rel: 0,
           showinfo: 0,
           wmode: 'opaque'
         }
