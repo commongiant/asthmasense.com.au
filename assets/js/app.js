@@ -114,7 +114,7 @@ var menuLeft = document.getElementById( 'cbp-spmenu' ),
       playerDiv.ytChanPlayer({
         username: 'SoundAsthma',
         maxResults: 12,
-        sticky: 'bZGLCBFSNck'
+        sticky: 'AWDM5jwRSag'
       }); 
        $(".yt-channel-list").before("<p class='tagline'></p>") 
     });
