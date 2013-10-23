@@ -1,13 +1,19 @@
 section.head
   #header-carousel.carousel.slide
     .carousel-inner
-      .item.active
+       .item.static-slide.active()
+        .carousel-caption.right
+          h2 A breakthrough in asthma management. 
+          p Turn your smartphone into a portable wheeze monitor. 
+            a(href="https://shop.airsonea.com.au") Order&nbsp;yours&nbsp;today. 
+     
+     // .item.active
         img(src="assets/img/airsonea_slider_2.jpg", alt="ipad")
         .carousel-caption.left
           h2 AirSonea&trade;
           p Turn your smartphone into a portable wheeze monitor. 
             a(href="https://shop.airsonea.com.au") Order yours today.
-      .item
+     // .item
         img(src="assets/img/asthmasense_slider.jpg", alt="phone")
         .carousel-caption.left
           h2 AsthmaSense&reg;
@@ -16,16 +22,16 @@ section.head
             img.appstore(/src="assets/img/available-on-app-store.png", alt="available-on-app-store")
           a(href="https://play.google.com/store/apps/details?id=com.ezasia.isonea&hl=en")
             img.appstore(src="assets/img/googleplay.png", alt="googleplay")
-      .item				
+     // .item				
         img(src="assets/img/blog_slider.jpg", alt="macbookair")
         .carousel-caption.left
           h2 Blog
           p Mums. Doctors. Sisters. Dads. Nurses. Researchers. Brothers. Kids. You? Read stories about real people affected by asthma.
-    a.left.carousel-control(href="#header-carousel", data-slide="prev")
+  //  a.left.carousel-control(href="#header-carousel", data-slide="prev")
       span.icon-prev
-    a.right.carousel-control(href="#header-carousel", data-slide="next")
+  //  a.right.carousel-control(href="#header-carousel", data-slide="next")
       span.icon-next
-    ol.carousel-indicators.hidden-xs
+  //  ol.carousel-indicators.hidden-xs
       li.active(data-target="#header-carousel", data-slide-to="0")
       li(data-target="#header-carousel", data-slide-to="1")
       li(data-target="#header-carousel", data-slide-to="2")

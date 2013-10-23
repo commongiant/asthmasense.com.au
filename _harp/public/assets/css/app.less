@@ -283,7 +283,11 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 		text-decoration: none;
 	}
 }
-
+.static-slide{
+  background: url(../img/AsthmasenseSliderAU-fixed-mobile.jpg) center center no-repeat;
+  display: block;
+  height: 400px;
+}
 /* Get Started */
 .start{
 	margin-top: 0px;
@@ -352,6 +356,16 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 }
 #feat-carousel{
 	min-height: 280px;
+}
+.item{
+  .carousel-caption{
+    background: rgba(0,0,0,.5);
+    padding-left: 10px;
+    padding-right: 10px;
+    a{
+      color: #00ADD8;
+    }
+  }
 }
 /* Video Section */
 .videos{padding:40px 0;}.videos h4{margin-bottom:30px;}
@@ -659,6 +673,11 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm){
+  .static-slide{
+    background: url(../img/AsthmasenseSliderAU-fixed.jpg) center center no-repeat;
+    display: block;
+    height: 400px;
+  }
 	.head{
 		margin-top: 0;
 	}
@@ -670,6 +689,17 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 			bottom: 10%;
 			left: 15%;
 			right: 0;
+			width: 40%;
+		}
+}
+  .item{
+		.right{
+			text-align: left;
+			background: rgba(0,0,0,.5);
+			padding: 20px;
+			bottom: 10%;
+			left: 40%;
+			right: 15%;
 			width: 40%;
 		}
 	}
